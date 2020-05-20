@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Platillo from "./platillo";
 
 class Carta extends Component {
   constructor(props) {
@@ -6,20 +7,14 @@ class Carta extends Component {
   }
   render() {
     return (
-      <section className='container-carta'>
-        <div className="carta">
-          <div className="img-carta"></div>
-          <div className="detalle-carta">
-            <div className="title-carta d-flex ">
-              <h3>{this.props.name}</h3>
-              <span>${this.props.price}</span>
-            </div>
-            <div className="description-carta">
-              <p>{this.props.description}</p>
-            </div>
+      
+          <div className="container-carta">
+            <h3>{this.props.title}</h3>
+            {this.props.products.map(({ name, price, description }) => (
+              <Platillo name={name} price={price} description={description} />
+            ))}
           </div>
-        </div>
-      </section>
+        
     );
   }
 }

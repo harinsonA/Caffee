@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 body {
-  width: 100%;
   font-family: "Open Sans", sans-serif;
-  background: url("../images/bg_4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+.body{
+  background: rgba(0, 0, 0,0.9);
 }
 /*Banner*/
 nav {
@@ -207,23 +208,22 @@ h2:hover {
 /*Menu-Carta*/
 .container-menu {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.container-menu .contenedor {
+.container-menu .menu1 {
   width: 80%;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-.menu1 {
-  width: 50%;
+  align-items: center;
 }
 .container-carta {
-  width: 100%;
+  width: 80%;
   padding: 0px 16px;
+  padding-bottom: 50px;
 }
 .container-carta h3{
   color: #fff;
@@ -255,7 +255,6 @@ h2:hover {
   display: block;
   position: relative;
   justify-content: space-between;
-
   font-size: 19px;
   font-weight: 600;
   z-index: 0;
@@ -287,4 +286,43 @@ h2:hover {
   font-style: italic;
   font-size: 20px;
   color: #80808080;
+}
+
+/*Titulo*/
+.contenedor-titulo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.contenedor-titulo .titulo{
+  font-size: 60px;
+  font-family: 'Parisienne', cursive;
+  color: #c49b63;
+}
+.contenedor-titulo span,
+.contenedor-titulo h2{
+margin: 0px;
+padding: 0px;
+}
+.contenedor-titulo span{
+  position: relative;
+  top: 38px;
+}
+.contenedor-titulo h2{
+  font-size: 40px;
+  margin-bottom: 34px;
+}
+.contenedor-titulo p{  
+  font-size: 20px;
+  text-align: center;
+  color: #808080;
+}
+/*Muestra Menu*/
+.contenedor-muestra-menu{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

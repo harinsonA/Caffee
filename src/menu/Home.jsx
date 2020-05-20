@@ -3,6 +3,7 @@ import Banner from "../banner/Banner";
 import Slider from "../slider/Home-Slider";
 import NavInfo from "../navInfo/navinfo";
 import Menu from "./components/menu";
+import Muestra_Menu from "./components/muestra-menu";
 
 class Home extends Component {
   constructor() {
@@ -15,6 +16,7 @@ class Home extends Component {
         <Slider />
         <NavInfo />
         <Menu />
+        <Muestra_Menu />
       </>
     );
   }
