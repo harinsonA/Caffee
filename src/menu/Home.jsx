@@ -4,6 +4,7 @@ import Slider from "../slider/Home-Slider";
 import NavInfo from "../navInfo/navinfo";
 import Menu from "./components/componente_menu_carta/menu";
 import Muestra_Menu from "./components/componente_muestra_menu/muestra-menu";
+import Footer from "../footer/main-footer";
 
 class Home extends Component {
   constructor() {
@@ -17,6 +18,7 @@ class Home extends Component {
         <NavInfo />
         <Menu />
         <Muestra_Menu />
+        <Footer />
       </>
     );
   }

@@ -6,7 +6,7 @@ const Bloque_Muestra = (props) => {
   return (
     <div className="row">
       
-      <Tabs defaultActiveKey="main-dish" id="uncontrolled-tab-example">
+      <Tabs defaultActiveKey="Main Dish" id="uncontrolled-tab-example">
         {
           props.muestras.map(({title, products})=>(
             <Tab eventKey={title} title={title}>
