@@ -1,33 +1,17 @@
 import React from "react";
+import About_Us from "./about-us-footer";
+import Recent_Blog from "./recent-blog-footer";
+import Services from "./service-footer";
+import Info_Footer from "./info-footer";
 
 const Footer = () => {
   return (
     <div className="contenedor-footer">
       <div className="footer">
-        <div className="footer-about-us col-3">
-          <h2>About Us</h2>
-          <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-          <ul className="group mt-5">
-            <li className="group-item">
-              <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="group-item">
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li className="group-item">
-              <a href="#">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <About_Us />
+        <Recent_Blog />
+        <Services />
+        <Info_Footer />
       </div>
     </div>
   );
