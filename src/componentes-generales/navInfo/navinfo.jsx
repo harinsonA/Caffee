@@ -41,9 +41,7 @@ class NavInfo extends Component {
                     <p>8:00am - 9:00pm</p>
                   </div>
                 </div>
-            </div>
-            
-            
+            </div>           
           </div>
           <div className="book">
             <h3>Book a Table</h3>

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Banner from "../banner/Banner";
-import Slider from "../slider/Home-Slider";
-import NavInfo from "../navInfo/navinfo";
+import Banner from "../componentes-generales/banner/Banner";
+import NavInfo from "../componentes-generales/navInfo/navinfo";
 import Menu from "./components/componente_menu_carta/menu";
 import Muestra_Menu from "./components/componente_muestra_menu/muestra-menu";
-import Footer from "../footer/main-footer";
+import Footer from "../componentes-generales/footer/main-footer";
+import Slider from "../componentes-generales/slider/slider";
 
-class Home extends Component {
+class Home_menu extends Component {
   constructor() {
     super();
   }
@@ -23,4 +23,4 @@ class Home extends Component {
     );
   }
 }
-export default Home;
+export default Home_menu;

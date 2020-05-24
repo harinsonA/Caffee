@@ -1,10 +1,11 @@
 import React from 'react';
-import Home from './menu/Home';
+import Home_Menu from './menu/Home-Menu';
+import Home_Services from './services/Home_Services';
 
 function App() {
   return (
     <>
-      <Home />
+      <Home_Services />
     </>
   );
 }
